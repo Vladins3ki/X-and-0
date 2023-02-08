@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Xand0</title>
+</head>
+<body>
+<h1>X and 0</h1>
+<label for="player1" id="move">Player1</label>
+    <input type="text" id="player1" name="player1" placeholder="Player1">
+<label for="player2">Player2</label>
+    <input type="text" id="player2" name="player2" placeholder="Player2">
+    <button onclick="Submit()" id="submit" name="submit">Submit</button>
+<h2 id="playerTurn"></h2> 
+<button onclick="window.location.reload()" id="restart">Play again!</button> 
+<div class="container">
+    <div id="flex">
+        <div onclick="clickDiv(this.id)" class="cont" id="1"></div> 
+        <div onclick="clickDiv(this.id)" class="cont" id="2"></div>
+        <div onclick="clickDiv(this.id)" class="cont" id="3"></div>
+    </div>
+    <div id="flex">
+        <div onclick="clickDiv(this.id)" class="cont" id="4"></div> 
+        <div onclick="clickDiv(this.id)" class="cont" id="5"></div>
+        <div onclick="clickDiv(this.id)" class="cont" id="6"></div>
+    </div>
+    <div id="flex">
+        <div onclick="clickDiv(this.id)" class="cont" id="7"></div> 
+        <div onclick="clickDiv(this.id)" class="cont" id="8"></div>
+        <div onclick="clickDiv(this.id)" class="cont" id="9"></div>
+    </div>
+</div>
+    
+
+
+    <script src="index1.js"></script>
+</body>
+</html>
