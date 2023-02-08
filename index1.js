@@ -14,7 +14,6 @@ let winnerCombination = [
 [1,5,9],
 [3,5,7]
 ]
-
 function clickDiv(id){
     let position = Number(id);
     if(turn == 1){
@@ -24,7 +23,7 @@ function clickDiv(id){
         xList.push(position);
         ++cont;
         turn = 2;
-    } else{
+    }else{
         document.getElementById(position).innerHTML = "O";
         document.getElementById(position).style.pointerEvents = 'none';
         document.getElementById("playerTurn").innerHTML = Player1 + "'s" + " turn!";
@@ -53,9 +52,7 @@ function Submit(){
     document.getElementById("player2").value = "";
     document.getElementById("playerTurn").innerHTML = Player1 + "'s" + "turn!";
 }
-if(cont == 7){
-    document.getElementById("playerTurn").innerHTML = "DRAW!";
-}
+
 
 
 
