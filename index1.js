@@ -1,4 +1,3 @@
-
 let cont = 0;
 let turn = 1;
 let xList = [];
@@ -52,27 +51,3 @@ function Submit(){
     document.getElementById("player2").value = "";
     document.getElementById("playerTurn").innerHTML = Player1 + "'s" + "turn!";
 }
-
-
-
-
-
-
-
-
-
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
